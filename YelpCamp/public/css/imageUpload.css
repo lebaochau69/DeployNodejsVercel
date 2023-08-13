@@ -1,0 +1,36 @@
+.btn.--rm-image {
+    fill: #38A5D0;
+    width: fit-content;
+    padding: 0 0.375rem 0;
+}
+.btn.--rm-image svg {
+    pointer-events: none;
+}
+.btn.--rm-image:hover {
+    fill: #89bafb;
+}
+
+.file-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.img-item:first-child {
+    margin-top: 0.375rem;
+}
+
+.file-name {
+    width: 50rem;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #38A5D0;
+    padding-left: 0.375rem;
+}

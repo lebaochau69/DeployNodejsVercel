@@ -1,0 +1,86 @@
+body {
+  background-color: #2F3537;
+  color: #FFF;
+}
+
+.form-control {
+  background-color: #2F3537;
+  color: #FFF;
+  border-color: #8A8D8E;
+}
+
+.form-control:focus {
+  background-color: #505355;
+  color: #FFF;
+  border-color: #FFF;
+  box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 50%);
+}
+
+.input-group-text {
+  background-color: #5E6162;
+  color: #FFF;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #5E6162;
+  color: #FFF;
+}
+
+input[type="file"]:hover::-webkit-file-upload-button {
+  color: #000;
+}
+
+.btn-info,
+.btn-danger,
+.btn-success {
+  min-width: 100px;
+}
+
+.btn-success:hover {
+  background-color: #B7F153;
+  color: #000;
+}
+.btn-success {
+  background-color: #157347;
+  color: #FFF;
+}
+
+.btn-danger {
+  background-color: #bb2d3b;
+  color: #FFF;
+}
+
+.btn-danger:hover {
+  background-color: #F64662;
+}
+.alert-danger {
+  background-color: #bb2d3b;
+  color: #FFF;
+}
+.btn-close {
+  opacity: 0.75;
+}
+
+.btn-close:hover {
+  opacity: 1;
+}
+
+.card {
+  background-color: #414547;
+}
+
+.text-primary {
+  color: #38A5D0 !important;
+}
+
+.list-group-item {
+  background-color: #505355;
+  color: #FFF;
+}
+
+.text-muted {
+  color: #6A6F71;
+}
+.card-footer {
+  background-color: #505355;
+}
